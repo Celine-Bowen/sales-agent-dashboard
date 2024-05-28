@@ -1,0 +1,63 @@
+/* Dashboard.css */
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.top-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.charts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chart {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.chart:last-child {
+    margin-right: 0;
+}
+
+.upcoming-invoices {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.invoice-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.invoice-info:last-child {
+    border-bottom: none;
+}
