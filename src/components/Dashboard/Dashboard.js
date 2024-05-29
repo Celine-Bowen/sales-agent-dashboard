@@ -41,6 +41,7 @@ const Dashboard = ({ invoices, pieChartData, barChartData, totalRevenue, bounced
                     </PieChart>
                 </div>
                 <div className="chart">
+                    <div className="chart-container">
                     <h3>Signups Overview</h3>
                     <BarChart width={600} height={400} data={barChartData}>
                         <CartesianGrid strokeDasharray="3 3" />
@@ -52,6 +53,7 @@ const Dashboard = ({ invoices, pieChartData, barChartData, totalRevenue, bounced
                         <Bar dataKey="finance" fill="#82ca9d" />
                         <Bar dataKey="timetable" fill="#ffc658" />
                     </BarChart>
+                    </div>
                 </div>
             </div>
             <div className="upcoming-invoices">

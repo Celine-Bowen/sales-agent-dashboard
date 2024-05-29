@@ -22,6 +22,7 @@
 
 .top-cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 20px;
 }
@@ -34,6 +35,7 @@
   text-align: center;
   flex: 1;
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .card:last-child {
@@ -42,6 +44,7 @@
 
 .charts {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -52,6 +55,7 @@
   padding: 20px;
   flex: 1;
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .chart:last-child {
@@ -66,7 +70,7 @@
   margin-top: 20px;
 }
 
-.invoice-info {
+/* .invoice-info {
   display: flex;
   justify-content: space-between;
   padding: 10px 0;
@@ -75,4 +79,38 @@
 
 .invoice-info:last-child {
   border-bottom: none;
+} */
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 200px;
+  }
+
+  .card, .chart {
+    margin-right: 0;
+    flex: 1 1 100%;
+  }
+
+  /* .invoice-info {
+    flex-direction: column;
+  } */
+}
+
+@media (max-width: 480px) {
+  .App {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+  }
+
+  .main-content {
+    padding: 10px;
+  }
+
+  /* .card, .chart, .upcoming-invoices {
+    padding: 10px;
+  } */
 }

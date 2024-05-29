@@ -1,0 +1,54 @@
+.school-details {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.school-details h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.school-details p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.school-details .detail-item {
+    margin-bottom: 10px;
+}
+
+.school-details .detail-item label {
+    font-weight: bold;
+    color: #333;
+}
+
+.school-details .detail-item span {
+    margin-left: 10px;
+    color: #666;
+}
+
+.school-details .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.school-details .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.school-details .button:hover {
+    background-color: #0056b3;
+}
