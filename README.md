@@ -12,51 +12,51 @@ Schools Module: Includes a list of schools with options to view detailed informa
 Dashboard Overview
 The sales agent dashboard offers a comprehensive overview with the following features:
 
-# Top Card Metrics:
+## Top Card Metrics:
 
 Collections
 Sign-ups
 Total Revenue
 Bounced Cheques
 
-# Targets Visualization:
+## Targets Visualization:
 
 Pie Charts
 Sign-ups Overview
 Bar Graphs
 
-# Upcoming Invoices:
+## Upcoming Invoices:
 
 Invoice List
 Quick Actions
 Payment Collection
 School Management
 
-# The school management module facilitates organization and viewing of school-related data, including:
+## The school management module facilitates organization and viewing of school-related data, including:
 
 School List
 School Details
 Invoices
 
-# The Invoices section allows for CRUD operations and management of invoices, including:
+## The Invoices section allows for CRUD operations and management of invoices, including:
 
 Invoice List
 CRUD Operations
 Collection Management
 Collections
 
-# The Collections section enables tracking and management of collections, including:
+## The Collections section enables tracking and management of collections, including:
 
 Collection List
 Collection Status Update
 
-# Prerequisites
+## Prerequisites
 
 To run this project locally, ensure you have the following prerequisites installed:
 Node.js
 React.js
 
-# Setting Up the Project
+## Setting Up the Project
 
 To set up the project locally from a GitHub clone, follow these steps:
 
@@ -68,15 +68,15 @@ Navigate to the Project Directory: Use the <cd> command to navigate into the pro
 
 cd <sales-agent-dashboard>
 
-# Install Dependencies
+## Install Dependencies
 
 npm install
 
-# Start the Development Server
+## Start the Development Server
 
 npm start
 This command will run the app in development mode. Open http://localhost:3000 to view it in your browser.
 
-# Start JSON Server
+## Start JSON Server
 
 npm run server
