@@ -88,4 +88,4 @@ npm run server
 ![Sales Dashboard Screenshot3](src/Assets/screenshot_6.png)
 ![Sales Dashboard Screenshot4](src/Assets/screenshot_7.png)
 ![Sales Dashboard Screenshot5](src/Assets/screenshot_8.png)
-![Sales Dashboard Screenshot6](src/Assets/screenshot_9.png)
+![Sales Dashboard Screenshot6](../sales-agent-dashboard/src/Assets/screenshot_9.png)
