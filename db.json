@@ -1,79 +1,180 @@
 {
-    
-        "schools": [
-          {
-            "id": 1,
-            "name": "Loreto High",
-            "type": "Primary",
-            "product": "Zeraki Analytics",
-            "county": "Nairobi",
-            "registrationDate": "2023-01-15",
-            "contact": "info@loreto.com",
-            "balance": 5000
-          },
-          {
-            "id": 2,
-            "name": "Makini School",
-            "type": "Secondary",
-            "product": "Zeraki Finance",
-            "county": "Nairobi",
-            "registrationDate": "2022-11-23",
-            "contact": "info@makinischool.com",
-            "balance": 3000
-          }
-        ],
-        "invoices": [
-          {
-            "id": 1,
-            "schoolId": 1,
-            "invoiceNumber": "INV001 ",
-            "invoiceItem": "Zeraki Analytics ",
-            "creationDate": "2023-05-01 ",
-            "dueDate": "2023-05-31 ",
-            "amount": 2000 ,
-            "paidAmount": 1500 ,
-            "balance": 500 ,
-            "status": "Pending",
-            "daysUntilDue": 10
-          },
-          {
-            "id": 2,
-            "schoolId": 2,
-            "invoiceNumber": "INV002  ",
-            "invoiceItem": "Zeraki Finance  ",
-            "creationDate": "2023-04-15 ",
-            "dueDate": "2023-05-15 ",
-            "amount": 1500 ,
-            "paidAmount": 1500 ,
-            "balance": 0,
-            "status": "Completed",
-            "daysUntilDue": 0
-          },
-          {
-            "id": 3,
-            "schoolId": 2,
-            "invoiceNumber": "INV003 ",
-            "invoiceItem": "Zeraki Timetable ",
-            "creationDate": "2023-05-01 ",
-            "dueDate": "2023-05-31 ",
-            "amount": 2000 ,
-            "paidAmount": 1500 ,
-            "balance": 500 ,
-            "status": "Pending",
-            "daysUntilDue": 10
-          }
-        ],
-        "pieChartData": [
-          { "name": "Achieved", "value": 400 },
-          { "name": "Remaining", "value": 100 }
-        ],
-        "barChartData": [
-          { "schoolType": "Primary", "analytics": 30, "finance": 20, "timetable": 50 },
-          { "schoolType": "Secondary", "analytics": 40, "finance": 30, "timetable": 60 },
-          { "schoolType": "IGCSE", "analytics": 50, "finance": 40, "timetable": 70 }
-        ]
-      
-      
+  "schools": [
+    {
+      "id": "1",
+      "name": "Greenwood High",
+      "type": "Primary",
+      "product": "Company Analytics",
+      "county": "Nairobi",
+      "registrationDate": "2023-01-15",
+      "contact": "contact@greenwoodhigh.com",
+      "balance": 5000
+    },
+    {
+      "id": "2",
+      "name": "Sunrise Academy",
+      "type": "Secondary",
+      "product": "Company Finance",
+      "county": "Kisumu",
+      "registrationDate": "2022-11-23",
+      "contact": "contact@sunriseacademy.com",
+      "balance": 3000
+    },
+    {
+      "id": "2",
+      "name": "Sunrise Academy1",
+      "type": "Secondary",
+      "product": "Company Finance1",
+      "county": "Kisumu",
+      "registrationDate": "2022-11-23",
+      "contact": "contact@sunriseacademy.com",
+      "balance": 3000
+    }
+  ],
+  "invoices": [
+    {
+      "id": "2",
+      "schoolId": 2,
+      "invoiceNumber": "INVOICE002  ",
+      "invoiceItem": "Company Finance  ",
+      "creationDate": "2023-04-15 ",
+      "dueDate": "2024-06-02",
+      "amount": 2000,
+      "paidAmount": 1500,
+      "balance": 0,
+      "status": "Completed",
+      "daysUntilDue": 0
+    },
+    {
+      "id": "3",
+      "schoolId": 3,
+      "invoiceNumber": "INVOICE001 ",
+      "invoiceItem": "Company Analytics ",
+      "creationDate": "2023-05-01 ",
+      "dueDate": "2023-05-31 ",
+      "amount": 2000,
+      "paidAmount": 1500,
+      "balance": 500,
+      "status": "Pending",
+      "daysUntilDue": 10
+    },
+    {
+      "id": "ab0a",
+      "schoolId": "",
+      "invoiceItem": "Makini123 Finance",
+      "dueDate": "2024-05-29",
+      "amount": 1000,
+      "invoiceNumber": "INVOICE200",
+      "paidAmount": null,
+      "balance": null,
+      "status": "Pending"
+    },
+    {
+      "id": "b414",
+      "schoolId": "",
+      "invoiceItem": "Sunshine High Test",
+      "dueDate": "2024-05-31",
+      "amount": 10000,
+      "invoiceNumber": "INVOICE220"
+    },
+    {
+      "id": "30f8",
+      "schoolId": "",
+      "invoiceItem": "Makini123",
+      "dueDate": "2024-06-08",
+      "amount": 100000,
+      "invoiceNumber": "INVOICE2020"
+    }
+  ],
+  "collections": [
+    {
+      "id": "1",
+      "invoiceId": 1,
+      "invoiceNumber": "INVOICE001",
+      "collectionNumber": "COLL-0001",
+      "date": "2023-01-10",
+      "status": "Valid",
+      "amount": 500
+    },
+    {
+      "id": "adc8",
+      "invoiceId": "ab0a",
+      "invoiceNumber": "INVOICE002",
+      "collectionNumber": "COLL-1ZPQCFFDT",
+      "date": "2024-05-29",
+      "status": "Valid",
+      "amount": 1234
+    },
+    {
+      "id": "213d",
+      "invoiceId": "1234",
+      "invoiceNumber": "INVOICE003",
+      "collectionNumber": "COLL-12345",
+      "date": "2024-05-31",
+      "status": "Bounced",
+      "amount": 34
+    },
+    {
+      "id": "dac4",
+      "invoiceId": "12346",
+      "collectionNumber": "COLL-123456",
+      "date": "2024-06-09",
+      "amount": "1000",
+      "status": "Bounced",
+      "schoolId": "2"
+    },
+    {
+      "id": "06df",
+      "invoiceNumber": "INVOICE2008",
+      "collectionNumber": "COLL-1234",
+      "date": "2024-06-06",
+      "amount": "100",
+      "status": "Valid",
+      "schoolId": "2"
+    },
+    {
+      "id": "2919",
+      "invoiceNumber": "GREEN101",
+      "collectionNumber": "COLL-GREEN-1234",
+      "date": "2024-06-09",
+      "amount": "1000",
+      "status": "Valid",
+      "schoolId": "1"
+    }
+  ],
+  "pieChartData": [
+    {
+      "name": "Achieved",
+      "value": 400,
+      "id": "2226"
+    },
+    {
+      "name": "Remaining",
+      "value": 100,
+      "id": "da72"
+    }
+  ],
+  "barChartData": [
+    {
+      "schoolType": "Primary",
+      "analytics": 30,
+      "finance": 20,
+      "timetable": 50,
+      "id": "3391"
+    },
+    {
+      "schoolType": "Secondary",
+      "analytics": 40,
+      "finance": 30,
+      "timetable": 60,
+      "id": "5edb"
+    },
+    {
+      "schoolType": "IGCSE",
+      "analytics": 50,
+      "finance": 40,
+      "timetable": 70,
+      "id": "123a"
+    }
+  ]
 }
-
-
